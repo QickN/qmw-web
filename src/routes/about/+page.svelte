@@ -1,26 +1,30 @@
+<script>
+    import { goto } from '$app/navigation';
+</script>
+
+
 <svelte:head>
-	<title>About</title>
-	<meta name="description" content="About this app" />
+    <title>ABOUT</title>
+    <meta name="description" content="Innovative Technology Solutions by TraceValley" />
 </svelte:head>
 
-<div class="text-column">
-	<h1>About this app</h1>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora,700&display=swap">
 
-	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
-	</p>
+<main>
 
-	<pre>npm create svelte@latest</pre>
+    <section class="hero">
+        <h1>ABOUT</h1>
 
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
+    </section>
 
-	<p>
-		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
-		using it with JavaScript disabled!
-	</p>
-</div>
+	  
+
+    <!-- Add your other sections like About, Services, Contact here -->
+
+</main>
+
+<style>
+    main{
+        font-family: 'Lora', serif;
+    }
+</style>

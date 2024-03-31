@@ -4,30 +4,51 @@
 	--font-body: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
-	--color-bg-0: rgb(202, 216, 228);
-	--color-bg-1: hsl(209, 36%, 86%);
-	--color-bg-2: hsl(224, 44%, 95%);
-	--color-theme-1: #ff3e00;
-	--color-theme-2: #4075a6;
-	--color-text: rgba(0, 0, 0, 0.7);
+	--color-bg-0: #5f8670;
+	--color-bg-1: #5f8670;
+	--color-bg-2: #5f8670;
+	--color-theme-1: #FF9800;
+	--color-theme-2: rgb(132, 166, 64);
+	--color-text: rgba(255, 250, 221, 0.7);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
 	font-family: var(--font-body);
 	color: var(--color-text);
+
+	/* Additional Variables for Animation */
+	--color-anim-0: #5f8670;
+	--color-anim-1: #FF9800;
+	--color-anim-2: #B80000;
+	--color-anim-3: #820300;
+	
+	font-family: var(--font-body);
+	color: var(--color-text);
+	
+	
+}
+
+@keyframes backgroundAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 body {
-	min-height: 100vh;
-	margin: 0;
-	background-attachment: fixed;
-	background-color: var(--color-bg-1);
-	background-size: 100vw 100vh;
-	background-image: radial-gradient(
-			50% 50% at 50% 50%,
-			rgba(255, 255, 255, 0.75) 0%,
-			rgba(255, 255, 255, 0) 100%
-		),
-		linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 15%, var(--color-bg-2) 50%);
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(270deg,var(--color-anim-0), var(--color-anim-1), var(--color-anim-2), var(--color-anim-3));
+    background-size: 600% 600%;
+    animation: backgroundAnimation 15s ease infinite;
+    background-attachment: fixed;
 }
 
 h1,
