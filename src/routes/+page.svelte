@@ -3,17 +3,17 @@
 </script>
 
 <svelte:head>
-    <title>QMW Solutions</title>
+    <title>TraceValley</title>
     <meta name="description" content="Innovative Technology Solutions by TraceValley" />
 </svelte:head>
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora,700&display=swap">
 
 <main>
 
     <section class="hero">
-        <h1>QMW SOLUTIONS</h1>
-        <p>we are engineers</p>
+        <h1>tracevalley</h1>
+        <p>welcome to the future</p>
 		<button on:click={() => goto('/about')}>learn more</button>
     </section>
 
