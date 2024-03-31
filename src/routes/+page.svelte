@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-    <title>TraceValley</title>
+    <title>QMW Solutions</title>
     <meta name="description" content="Innovative Technology Solutions by TraceValley" />
 </svelte:head>
 
@@ -12,7 +12,7 @@
 <main>
 
     <section class="hero">
-        <h1>tracevalley</h1>
+        <h1>QMW Solutions</h1>
         <p>welcome to the future</p>
 		<button on:click={() => goto('/about')}>learn more</button>
     </section>
