@@ -5,14 +5,17 @@
 <svelte:head>
     <title>QMW Solutions</title>
     <meta name="description" content="Innovative Technology Solutions by TraceValley" />
+    <!-- Import Roboto font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
 </svelte:head>
+
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora,700&display=swap">
 
 <main>
 
     <section class="hero">
-        <h1>QMW Solutions</h1>
+        <h1>qmw solutions</h1>
         <p>welcome to the future</p>
 		<button on:click={() => goto('/about')}>learn more</button>
     </section>

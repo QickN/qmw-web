@@ -22,7 +22,7 @@
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
-		font-family: 'Lora', serif;
+		font-family: 'Roboto', serif;
 
 	}
 
